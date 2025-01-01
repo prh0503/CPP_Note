@@ -1,0 +1,10 @@
+^D:\GIT_LOCAL\MY_C++\CPP_NOTE\DATA_STRUCTURE\TEST_LIST\BUILD\CMAKEFILES\9550E59F4D348277084FDFC01A36179E\GENERATE.STAMP.RULE
+setlocal
+D:\Software\cmake\bin\cmake.exe -SD:/Git_local/my_c++/CPP_Note/Data_Structure/test_list -BD:/Git_local/my_c++/CPP_Note/Data_Structure/test_list/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/Git_local/my_c++/CPP_Note/Data_Structure/test_list/build/LinkedListProject.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

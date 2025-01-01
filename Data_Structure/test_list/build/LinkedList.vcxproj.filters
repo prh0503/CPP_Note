@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Git_local\my_c++\CPP_Note\Data_Structure\test_list\src\linkedListIterator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Git_local\my_c++\CPP_Note\Data_Structure\test_list\src\linkedListType.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Git_local\my_c++\CPP_Note\Data_Structure\test_list\src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Git_local\my_c++\CPP_Note\Data_Structure\test_list\src\orderedLinkedList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Git_local\my_c++\CPP_Note\Data_Structure\test_list\src\unorderedLinkedList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Git_local\my_c++\CPP_Note\Data_Structure\test_list\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{CB0C4110-C660-3F47-B7CC-BB2DC6EC1935}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
